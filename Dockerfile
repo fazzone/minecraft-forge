@@ -1,7 +1,7 @@
 FROM webhippie/minecraft-vanilla:1.12.2
 MAINTAINER Thomas Boerger <thomas@webhippie.de>
 
-VOLUME ["/minecraft/merge", "/minecraft/world", "/minecraft/logs", "/minecraft/dynmap"]
+VOLUME ["/minecraft"]
 
 EXPOSE 25565 25575 8123
 
